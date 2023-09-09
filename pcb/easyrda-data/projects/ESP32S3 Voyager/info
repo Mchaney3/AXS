@@ -1,0 +1,368 @@
+{
+  "uuid": "f97fb28f01a851d6c3c6483857419d9c",
+  "path": "Offline/ESP32S3 Voyager",
+  "name": "ESP32S3 Voyager",
+  "content": "",
+  "created_at": "2021-12-15 21:48:54",
+  "updated_at": "2021-12-15 21:48:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e50a1589bb1f724460f06f1ad8cff674",
+      "title": "Sheet_1 copy",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0b6ea66f1a77ef3069b26dadb3d73791": 2,
+        "beb7660708a0499fac6a060cc3851aa2": 4,
+        "bfe645e5fd9b46729c16693a0e972ce4": 4,
+        "d850ba6d3ba64d4f81cf9356166138b4": 4,
+        "0978c1de0cce4224b705a945ce6684a5": 4,
+        "97e1878e20df4858ac0468f9f891d3ca": 4,
+        "624bcb83e96740e49a4f8480660c30c0": 4,
+        "3ea509f9703b43eaa7954bcda10ae93e": 4,
+        "8024a6acc10a4b56bc9bdf861b9337c0": 1,
+        "29c4b2e35e7942dc87c121dd1a162417": 1,
+        "af3fe5c4302144a9bf70f0f0909b6747": 3,
+        "73cf4db60ff344f8a415b734dfaec7a1": 2,
+        "fca7d9ded10e4985a633a4aa45b72f4b": 2,
+        "179e9f8632ff419a965116e9eadbae76": 1,
+        "7c64922eddb80535a5530c1a6c21a2c0": 1,
+        "edac635e683945aa8e097f7020d4957c": 1,
+        "55f2b0520af64f99ba4148fe3b2c5375": 1,
+        "013b484398574a14873cf98f168b518f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "18650",
+          4,
+          "18650-HOLDER",
+          "3.1V,3.2V,3.3V,3.4V",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e4ed9fe603ad462eb9150dec7515da8c",
+            "uuid": "3ea509f9703b43eaa7954bcda10ae93e"
+          }
+        ],
+        [
+          "100nF",
+          4,
+          "C1812",
+          "C1,C2,C5,C7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C363570",
+            "BOM_Manufacturer": "Prosperity Dielectrics",
+            "BOM_Manufacturer Part": "FN43N104J500EGG",
+            "puuid": "b1ac6e2b89f7434b9af217c481084a98",
+            "uuid": "0978c1de0cce4224b705a945ce6684a5"
+          }
+        ],
+        [
+          "47uF",
+          4,
+          "CAP-SMD_BD6.3-L6.6-W6.6-FD",
+          "C3,C4,C6,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C336513",
+            "BOM_Manufacturer": "PANASONIC",
+            "BOM_Manufacturer Part": "EEEHB1C470AP",
+            "puuid": "094c2f010dde49cebe8798f0a52bbcb5",
+            "uuid": "bfe645e5fd9b46729c16693a0e972ce4"
+          }
+        ],
+        [
+          "105",
+          3,
+          "0805",
+          "C9,C10,C13",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "af3fe5c4302144a9bf70f0f0909b6747"
+          }
+        ],
+        [
+          "220u",
+          1,
+          "CAP-D10.0XH12.5",
+          "C11",
+          {
+            "BOM_Manufacturer Part": "?",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "c4ce06de7b8a41c3ab3fd6bf219e3575",
+            "uuid": "73cf4db60ff344f8a415b734dfaec7a1"
+          }
+        ],
+        [
+          "330u",
+          1,
+          "CAP-D10.0XH12.5",
+          "C12",
+          {
+            "BOM_Manufacturer Part": "?",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "c4ce06de7b8a41c3ab3fd6bf219e3575",
+            "uuid": "73cf4db60ff344f8a415b734dfaec7a1"
+          }
+        ],
+        [
+          "SK104",
+          1,
+          "SMC_L7.1-W6.2-LS8.1-FD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "SK104",
+            "BOM_Manufacturer": "MDD",
+            "BOM_Supplier Part": "C59500",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "e4f3261ce51e4e24837af00e485f818c",
+            "uuid": "7c64922eddb80535a5530c1a6c21a2c0"
+          }
+        ],
+        [
+          "47uH",
+          1,
+          "IND-SMD_L13.8-W12.6_MHCC12050",
+          "L1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C429835",
+            "BOM_Manufacturer": "TDG",
+            "BOM_Manufacturer Part": "TMAX-1365-470-M",
+            "puuid": "d486b40426364ca8b0f9e7d36c46ac3b",
+            "uuid": "179e9f8632ff419a965116e9eadbae76"
+          }
+        ],
+        [
+          "Header-Female-2.54_1x3",
+          4,
+          "HDR-TH_3P-P2.54-V",
+          "P1,P2,P3,P4",
+          {
+            "BOM_Supplier Part": "C146243",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Boom Precision Elec",
+            "BOM_Manufacturer Part": "Header-Female-2.54_1x3",
+            "puuid": "7e70b923819e4f3bb9fdeaf4abdca9d3",
+            "uuid": "beb7660708a0499fac6a060cc3851aa2"
+          }
+        ],
+        [
+          "Header-Female-2.54_1x2",
+          2,
+          "HDR-TH_2P-P2.54-V-M",
+          "P5,P6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2.54-1*2PFemale",
+            "BOM_Supplier Part": "C49661",
+            "puuid": "e6b180e1316a4d0690f78b72797504c2",
+            "uuid": "0b6ea66f1a77ef3069b26dadb3d73791"
+          }
+        ],
+        [
+          "30K",
+          4,
+          "R2010",
+          "R1,R2,R3,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C175093",
+            "BOM_Manufacturer": "Ever Ohms Tech",
+            "BOM_Manufacturer Part": "CR2010F30KE040.75W",
+            "puuid": "6c0967c5a3bf40c4a53b4a986740818e",
+            "uuid": "d850ba6d3ba64d4f81cf9356166138b4"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "0805",
+          "R5",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "fca7d9ded10e4985a633a4aa45b72f4b"
+          }
+        ],
+        [
+          "3.3k",
+          1,
+          "0805",
+          "R6",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "0d14e6c62b14419a891d7c175b7eca4f",
+            "uuid": "fca7d9ded10e4985a633a4aa45b72f4b"
+          }
+        ],
+        [
+          "MFP211N",
+          1,
+          "SW-TH_MFP211N",
+          "SW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C237065",
+            "BOM_Manufacturer": "Knitter-switch",
+            "BOM_Manufacturer Part": "MFP211N",
+            "puuid": "4712f9ec209e414c8b021448d326f448",
+            "uuid": "8024a6acc10a4b56bc9bdf861b9337c0"
+          }
+        ],
+        [
+          "ESP32-S3-DevkitC-1",
+          1,
+          "ESP32S3WROOM1N8R2",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "ESP32-S3-DevkitC-1",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "ESP32-S3-DevkitC1-N8R2",
+            "BOM_Manufacturer": "Espressif",
+            "puuid": "500db0bc3e8c4f078f0a475673cbd0e7",
+            "uuid": "edac635e683945aa8e097f7020d4957c"
+          }
+        ],
+        [
+          "DRV8871DDAR",
+          4,
+          "SO-8_EP",
+          "U2,U6,U10,U12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "DRV8871DDAR",
+            "BOM_Supplier Part": "C75864",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "16153af43cb140a1a5341d43df253ccf",
+            "uuid": "97e1878e20df4858ac0468f9f891d3ca"
+          }
+        ],
+        [
+          "Motor Four",
+          1,
+          "CONN-TH_2P-P3.81_JL124D-38102G01",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C415430",
+            "BOM_Manufacturer": "JILN",
+            "BOM_Manufacturer Part": "JL124D-38102G01",
+            "puuid": "b30db562e0eb44e89506f39dceaf4cd8",
+            "uuid": "624bcb83e96740e49a4f8480660c30c0"
+          }
+        ],
+        [
+          "Motor One",
+          1,
+          "CONN-TH_2P-P3.81_JL124D-38102G01",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C415430",
+            "BOM_Manufacturer": "JILN",
+            "BOM_Manufacturer Part": "JL124D-38102G01",
+            "puuid": "b30db562e0eb44e89506f39dceaf4cd8",
+            "uuid": "624bcb83e96740e49a4f8480660c30c0"
+          }
+        ],
+        [
+          "Motor Three",
+          1,
+          "CONN-TH_2P-P3.81_JL124D-38102G01",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C415430",
+            "BOM_Manufacturer": "JILN",
+            "BOM_Manufacturer Part": "JL124D-38102G01",
+            "puuid": "b30db562e0eb44e89506f39dceaf4cd8",
+            "uuid": "624bcb83e96740e49a4f8480660c30c0"
+          }
+        ],
+        [
+          "HEADER_1X22_2.54_NO_SILK",
+          1,
+          "HEADER_1X22_2.54_NO_SILK",
+          "U7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "8bd2cc18da6a4ad3b5485383565d5d29",
+            "uuid": "55f2b0520af64f99ba4148fe3b2c5375"
+          }
+        ],
+        [
+          "1X22THM",
+          1,
+          "1X22",
+          "U8",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "0fc94eaca07a47ac87faa993d2833dc6",
+            "uuid": "013b484398574a14873cf98f168b518f"
+          }
+        ],
+        [
+          "Motor Two",
+          1,
+          "CONN-TH_2P-P3.81_JL124D-38102G01",
+          "U11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C415430",
+            "BOM_Manufacturer": "JILN",
+            "BOM_Manufacturer Part": "JL124D-38102G01",
+            "puuid": "b30db562e0eb44e89506f39dceaf4cd8",
+            "uuid": "624bcb83e96740e49a4f8480660c30c0"
+          }
+        ],
+        [
+          "XL4015E1",
+          1,
+          "TO-263-5",
+          "U13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "XLSEMI",
+            "BOM_Manufacturer Part": "XL4015E1",
+            "BOM_Supplier Part": "C51661",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "38780a7720ee492fb75bd72ebab830cf",
+            "uuid": "29c4b2e35e7942dc87c121dd1a162417"
+          }
+        ]
+      ],
+      "updateTime": 1639622935,
+      "createTime": 1639622935,
+      "histories": [],
+      "created_at": "2021-12-15 21:48:55",
+      "updated_at": "2021-12-15 21:48:55"
+    }
+  ],
+  "sort": [],
+  "title": "ESP32S3 Voyager",
+  "foldername": "ESP32S3 Voyager",
+  "schfilename": "ESP32S3 Voyager.json",
+  "schfilemtime": 1639622935010
+}
