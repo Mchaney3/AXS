@@ -30,6 +30,14 @@ int freq = 1000;
 // Connect to the GPS on the hardware port
 Adafruit_GPS GPS(&GPSSerial);
 
+/* 
+ *  int8_t pins[7] creates a pointer to pins with 7 values, each a pin attached to a piece of hardware
+ *  38 and 37 - pins[0] and pins[1] = motor1 
+ *  35 and 36 - pins[2] and pins[3] = motor2
+ *  16 - pins[4] = pingPin
+ *  17 - pins[5] = echoPin
+ *  23 - pins[6] = pan a.k.a. Servo Pin
+ */
 int8_t pins[7] = {38,37,35,36,16,17,23};
 int8_t pingPin = 16;
 int8_t echoPin = 17;
