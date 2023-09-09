@@ -1,0 +1,20 @@
+{
+	"name":"Arduino on ESP32-S3",
+	"toolchainPrefix":"xtensa-esp32s3-elf",
+	"svdFile":"debug.svd",
+	"request":"attach",
+	"overrideAttachCommands":[
+		"set remote hardware-watchpoint-limit 2",
+		"monitor reset halt",
+		"monitor gdb_sync",
+		"thb setup",
+		"c"
+	],
+	"overrideRestartCommands":[
+		"monitor reset halt",
+		"monitor gdb_sync"
+	]
+}
+
+m-195-507-936
+Zaq11qaz

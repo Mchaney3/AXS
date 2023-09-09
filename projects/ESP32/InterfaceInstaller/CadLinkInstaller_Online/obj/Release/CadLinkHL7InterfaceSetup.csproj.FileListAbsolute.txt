@@ -1,0 +1,11 @@
+D:\DEV\lab\InterfaceInstaller\CadLinkHL7InterfaceSetup\bin\Release\CadLinkHL7InterfaceSetup.exe.config
+D:\DEV\lab\InterfaceInstaller\CadLinkHL7InterfaceSetup\bin\Release\CadLinkHL7InterfaceSetup.exe
+D:\DEV\lab\InterfaceInstaller\CadLinkHL7InterfaceSetup\bin\Release\CadLinkHL7InterfaceSetup.pdb
+D:\DEV\lab\InterfaceInstaller\CadLinkHL7InterfaceSetup\obj\Release\CadLinkHL7InterfaceSetup.csproj.AssemblyReference.cache
+D:\DEV\lab\InterfaceInstaller\CadLinkHL7InterfaceSetup\obj\Release\CadLinkHL7InterfaceSetup.csproj.SuggestedBindingRedirects.cache
+D:\DEV\lab\InterfaceInstaller\CadLinkHL7InterfaceSetup\obj\Release\CadLinkHL7InterfaceSetup.formMain.resources
+D:\DEV\lab\InterfaceInstaller\CadLinkHL7InterfaceSetup\obj\Release\CadLinkHL7InterfaceSetup.Properties.Resources.resources
+D:\DEV\lab\InterfaceInstaller\CadLinkHL7InterfaceSetup\obj\Release\CadLinkHL7InterfaceSetup.csproj.GenerateResource.cache
+D:\DEV\lab\InterfaceInstaller\CadLinkHL7InterfaceSetup\obj\Release\CadLinkHL7InterfaceSetup.csproj.CoreCompileInputs.cache
+D:\DEV\lab\InterfaceInstaller\CadLinkHL7InterfaceSetup\obj\Release\CadLinkHL7InterfaceSetup.exe
+D:\DEV\lab\InterfaceInstaller\CadLinkHL7InterfaceSetup\obj\Release\CadLinkHL7InterfaceSetup.pdb

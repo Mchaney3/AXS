@@ -1,0 +1,77 @@
+AutoSatTracker is an Ardunio sketch that performs completely autonomous Earth satellite tracking.
+All control and monioring is done from a host computer via a web browser, a separate host
+application is not required.
+
+The system requires the following equipment:
+
+    Arduino Mega 2560 (UNO is too small)
+
+    a GPS module for time and location
+
+    a 9 DOF spatial sensor attached to the antenna to measure where it is pointed
+
+    a 2D gimbal to point the antenna moved by two hobby servo motors
+
+    an ethernet (or wifi) module for operator communication and control
+
+
+The main program is AutoSatTracker.ino which uses the following classes:
+
+    Gimbal		control the two servos
+    Circum		manage time and location (not just GPS because user can override everything)
+    Sensor		read the spatial sensor
+    Target		compute the satellite location
+    Webpage		display and update the web page
+
+Also required are the matching Arduino libraries from ADafruit to support their equipment. Lower down,
+the ephemeris calculations are extracted and slightly modified from P13, see below. All development
+was performed on an Apple iMac using Arduino IDE 1.6.5.
+
+During development, the main web page changed often and it was a pain to keep editing it while
+wrapped in C strings. So instead, it was edited as plain text in ast.html then reformatted with
+the perl script preppage.pl which automatically inserts it into Webpage.cpp. This approach
+also allows ast.html to be viewed directly in a browser to check html errors, layout and local
+functionality without another burn cycle of the Arduino. The web page was tested in Chrome,
+Safari, Firefox and IE in Windows 10.
+
+The main loop() in AutoSetTracker.ino just polls for ethernet and GPS activity then updates the
+tracking. Webpage::checkEthernet() checks for a new client connection and replies depending on
+the URL they request. The default "/" returns the main web page. After rendering the page, the browser
+starts an infinite loop issuing XMLHttpRequests for "/getvalues.txt" which returns many NAME=VALUE pairs.
+In most of these, the NAME is the DOM id of the page element to display the VALUE. A few NAMEs,
+such as T_TLE, require special handling. Page controls also issue an XMLHttpRequest POST method with
+a new NAME=VALUE pair. These pairs are passed to each subsystem for action.
+
+
+
+=====================================================================================================
+The P13 code as used here was written by Mark VandeWettering, K6HX as part of his angst project, see
+his blog postings at http://brainwagon.org/the-arduino-n-gameduino-satellite-tracker:
+
+
+
+                   _   		The Arduino n' Gameduino
+ __ _ _ _  __ _ __| |_ 			Satellite Tracker
+/ _` | ' \/ _` (_-<  _|
+\__,_|_||_\__, /__/\__|		Written by Mark VandeWettering, K6HX, 2011
+          |___/        		brainwagon@gmail.com
+
+
+Angst is an application that I wrote for the Arduino and Gameduino. It
+is being distributed under the so-called "2-class BSD License", which I
+think grants potential users the greatest possible freedom to integrate
+this code into their own projects. I would, however, consider it a great
+courtesy if you could email me and tell me about your project and how
+this code was used, just for my own continued personal gratification.
+
+Angst includes P13, a port of the Plan 13 algorithm, originally written
+by James Miller, G3RUH and documented here:
+
+	http://www.amsat.org/amsat/articles/g3ruh/111.html
+
+Other implementations exist, even for embedded platforms, such as
+the qrpTracker library of Bruce Robertson, VE9QRP and G6LVB's PIC
+implementation that is part of his embedded satellite tracker. My own
+code was ported from a quick and dirty Python implementation of my own,
+and retains a bit of the object orientation that I imposed in that code.
+
