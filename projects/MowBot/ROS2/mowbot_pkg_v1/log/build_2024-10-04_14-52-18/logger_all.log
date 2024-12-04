@@ -1,0 +1,91 @@
+[0.542s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.543s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff99baa200>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff99ca68c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff99ca68c0>>, mixin_verb=('build',))
+[1.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.520s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/mowbot_pkg_v1'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.585s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'mowbot_pkg'
+[1.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.724s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pi/mowbot_pkg_v1/install
+[1.727s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/install
+[1.739s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/humble
+[1.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.990s] Level 5:colcon.colcon_core.verb:set package 'mowbot_pkg' build argument 'cmake_args' from command line to 'None'
+[1.990s] Level 5:colcon.colcon_core.verb:set package 'mowbot_pkg' build argument 'cmake_target' from command line to 'None'
+[1.990s] Level 5:colcon.colcon_core.verb:set package 'mowbot_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.990s] Level 5:colcon.colcon_core.verb:set package 'mowbot_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.991s] Level 5:colcon.colcon_core.verb:set package 'mowbot_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.991s] Level 5:colcon.colcon_core.verb:set package 'mowbot_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.991s] Level 5:colcon.colcon_core.verb:set package 'mowbot_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.991s] Level 5:colcon.colcon_core.verb:set package 'mowbot_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.991s] Level 5:colcon.colcon_core.verb:set package 'mowbot_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.991s] DEBUG:colcon.colcon_core.verb:Building package 'mowbot_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/mowbot_pkg_v1/build/mowbot_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/mowbot_pkg_v1/install/mowbot_pkg', 'merge_install': False, 'path': '/home/pi/mowbot_pkg_v1', 'symlink_install': False, 'test_result_base': None}
+[1.992s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.995s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.996s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/mowbot_pkg_v1' with build type 'ament_python'
+[1.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('mowbot_pkg', 'ament_prefix_path')
+[2.006s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/hook/ament_prefix_path.ps1'
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/hook/ament_prefix_path.dsv'
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/hook/ament_prefix_path.sh'
+[2.020s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.020s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.541s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/mowbot_pkg_v1'
+[3.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/mowbot_pkg_v1': PYTHONPATH=/home/pi/mowbot_pkg_v1/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mowbot_pkg build --build-base /home/pi/mowbot_pkg_v1/build/mowbot_pkg/build install --record /home/pi/mowbot_pkg_v1/build/mowbot_pkg/install.log --single-version-externally-managed install_data
+[7.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/mowbot_pkg_v1' returned '0': PYTHONPATH=/home/pi/mowbot_pkg_v1/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mowbot_pkg build --build-base /home/pi/mowbot_pkg_v1/build/mowbot_pkg/build install --record /home/pi/mowbot_pkg_v1/build/mowbot_pkg/install.log --single-version-externally-managed install_data
+[7.199s] Level 1:colcon.colcon_core.environment:checking '/home/pi/mowbot_pkg_v1/install/mowbot_pkg' for CMake module files
+[7.202s] Level 1:colcon.colcon_core.environment:checking '/home/pi/mowbot_pkg_v1/install/mowbot_pkg' for CMake config files
+[7.212s] Level 1:colcon.colcon_core.environment:checking '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib'
+[7.213s] Level 1:colcon.colcon_core.environment:checking '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/bin'
+[7.213s] Level 1:colcon.colcon_core.environment:checking '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/pkgconfig/mowbot_pkg.pc'
+[7.214s] Level 1:colcon.colcon_core.environment:checking '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages'
+[7.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('mowbot_pkg', 'pythonpath')
+[7.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/hook/pythonpath.ps1'
+[7.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/hook/pythonpath.dsv'
+[7.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/hook/pythonpath.sh'
+[7.223s] Level 1:colcon.colcon_core.environment:checking '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/bin'
+[7.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mowbot_pkg)
+[7.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/package.ps1'
+[7.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/package.dsv'
+[7.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/package.sh'
+[7.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/package.bash'
+[7.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/package.zsh'
+[7.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/colcon-core/packages/mowbot_pkg)
+[7.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.247s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.273s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.274s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.274s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.345s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/mowbot_pkg_v1/install/local_setup.ps1'
+[7.352s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/mowbot_pkg_v1/install/_local_setup_util_ps1.py'
+[7.360s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/mowbot_pkg_v1/install/setup.ps1'
+[7.365s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/mowbot_pkg_v1/install/local_setup.sh'
+[7.369s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/mowbot_pkg_v1/install/_local_setup_util_sh.py'
+[7.373s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/mowbot_pkg_v1/install/setup.sh'
+[7.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/mowbot_pkg_v1/install/local_setup.bash'
+[7.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/mowbot_pkg_v1/install/setup.bash'
+[7.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/mowbot_pkg_v1/install/local_setup.zsh'
+[7.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/mowbot_pkg_v1/install/setup.zsh'

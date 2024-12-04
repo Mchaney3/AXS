@@ -1,0 +1,52 @@
+[7.203s] Invoking command in '/home/pi/mowbot_v2': PYTHONPATH=/home/pi/mowbot_v2/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mowbot_pkg build --build-base /home/pi/mowbot_v2/build/mowbot_pkg/build install --record /home/pi/mowbot_v2/build/mowbot_pkg/install.log --single-version-externally-managed install_data
+[10.292s] running egg_info
+[10.297s] creating build/mowbot_pkg/mowbot_pkg.egg-info
+[10.299s] writing build/mowbot_pkg/mowbot_pkg.egg-info/PKG-INFO
+[10.301s] writing dependency_links to build/mowbot_pkg/mowbot_pkg.egg-info/dependency_links.txt
+[10.303s] writing entry points to build/mowbot_pkg/mowbot_pkg.egg-info/entry_points.txt
+[10.305s] writing requirements to build/mowbot_pkg/mowbot_pkg.egg-info/requires.txt
+[10.306s] writing top-level names to build/mowbot_pkg/mowbot_pkg.egg-info/top_level.txt
+[10.307s] writing manifest file 'build/mowbot_pkg/mowbot_pkg.egg-info/SOURCES.txt'
+[10.325s] reading manifest file 'build/mowbot_pkg/mowbot_pkg.egg-info/SOURCES.txt'
+[10.333s] writing manifest file 'build/mowbot_pkg/mowbot_pkg.egg-info/SOURCES.txt'
+[10.335s] running build
+[10.336s] running build_py
+[10.337s] creating /home/pi/mowbot_v2/build/mowbot_pkg/build
+[10.339s] creating /home/pi/mowbot_v2/build/mowbot_pkg/build/lib
+[10.339s] creating /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg
+[10.340s] copying ./mowbot_pkg/object_avoidance.py -> /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg
+[10.341s] copying ./mowbot_pkg/__init__.py -> /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg
+[10.343s] copying ./mowbot_pkg/roboclaw_control.py -> /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg
+[10.345s] creating /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw
+[10.346s] copying ./mowbot_pkg/roboclaw/roboclaw_3.py -> /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw
+[10.348s] copying ./mowbot_pkg/roboclaw/__init__.py -> /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw
+[10.352s] running install
+[10.355s] running install_lib
+[10.363s] creating /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg
+[10.364s] copying /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg/object_avoidance.py -> /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg
+[10.367s] creating /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw
+[10.368s] copying /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw/roboclaw_3.py -> /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw
+[10.370s] copying /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw/__init__.py -> /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw
+[10.372s] copying /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg/__init__.py -> /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg
+[10.374s] copying /home/pi/mowbot_v2/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw_control.py -> /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg
+[10.380s] byte-compiling /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/object_avoidance.py to object_avoidance.cpython-310.pyc
+[10.385s] byte-compiling /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw/roboclaw_3.py to roboclaw_3.cpython-310.pyc
+[10.462s] byte-compiling /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw/__init__.py to __init__.cpython-310.pyc
+[10.465s] byte-compiling /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/__init__.py to __init__.cpython-310.pyc
+[10.467s] byte-compiling /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw_control.py to roboclaw_control.cpython-310.pyc
+[10.475s] running install_data
+[10.477s] creating /home/pi/mowbot_v2/install/mowbot_pkg/share/ament_index
+[10.478s] creating /home/pi/mowbot_v2/install/mowbot_pkg/share/ament_index/resource_index
+[10.479s] creating /home/pi/mowbot_v2/install/mowbot_pkg/share/ament_index/resource_index/packages
+[10.480s] copying resource/mowbot_pkg -> /home/pi/mowbot_v2/install/mowbot_pkg/share/ament_index/resource_index/packages
+[10.481s] copying package.xml -> /home/pi/mowbot_v2/install/mowbot_pkg/share/mowbot_pkg
+[10.482s] creating /home/pi/mowbot_v2/install/mowbot_pkg/share/mowbot_pkg/launch
+[10.483s] copying launch/roboclaw_control_launch.py -> /home/pi/mowbot_v2/install/mowbot_pkg/share/mowbot_pkg/launch
+[10.484s] creating /home/pi/mowbot_v2/install/mowbot_pkg/share/mowbot_pkg/config
+[10.486s] copying config/ps4.config.yaml -> /home/pi/mowbot_v2/install/mowbot_pkg/share/mowbot_pkg/config
+[10.487s] running install_egg_info
+[10.502s] Copying build/mowbot_pkg/mowbot_pkg.egg-info to /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg-0.0.1-py3.10.egg-info
+[10.515s] running install_scripts
+[10.712s] Installing roboclaw_control script to /home/pi/mowbot_v2/install/mowbot_pkg/lib/mowbot_pkg
+[10.716s] writing list of installed files to '/home/pi/mowbot_v2/build/mowbot_pkg/install.log'
+[10.916s] Invoked command in '/home/pi/mowbot_v2' returned '0': PYTHONPATH=/home/pi/mowbot_v2/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mowbot_pkg build --build-base /home/pi/mowbot_v2/build/mowbot_pkg/build install --record /home/pi/mowbot_v2/build/mowbot_pkg/install.log --single-version-externally-managed install_data

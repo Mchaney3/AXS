@@ -1,0 +1,23 @@
+[3.407s] Invoking command in '/home/pi/mowbot_pkg_v1/build/mowbot_pkg': PYTHONPATH=/home/pi/mowbot_pkg_v1/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pi/mowbot_pkg_v1/build/mowbot_pkg/build --no-deps symlink_data --force
+[4.889s] running develop
+[4.895s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.895s]   warnings.warn(
+[5.921s] running egg_info
+[5.921s] writing mowbot_pkg.egg-info/PKG-INFO
+[5.922s] writing dependency_links to mowbot_pkg.egg-info/dependency_links.txt
+[5.923s] writing entry points to mowbot_pkg.egg-info/entry_points.txt
+[5.924s] writing requirements to mowbot_pkg.egg-info/requires.txt
+[5.925s] writing top-level names to mowbot_pkg.egg-info/top_level.txt
+[5.934s] reading manifest file 'mowbot_pkg.egg-info/SOURCES.txt'
+[5.938s] writing manifest file 'mowbot_pkg.egg-info/SOURCES.txt'
+[5.944s] running build_ext
+[5.945s] Creating /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot-pkg.egg-link (link to .)
+[5.949s] Installing roboclaw_control script to /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/mowbot_pkg
+[5.950s] 
+[5.951s] Installed /home/pi/mowbot_pkg_v1/build/mowbot_pkg
+[5.951s] running symlink_data
+[5.952s] symbolically linking /home/pi/mowbot_pkg_v1/build/mowbot_pkg/resource/mowbot_pkg -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/ament_index/resource_index/packages
+[5.952s] symbolically linking /home/pi/mowbot_pkg_v1/build/mowbot_pkg/package.xml -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg
+[5.953s] symbolically linking /home/pi/mowbot_pkg_v1/build/mowbot_pkg/launch/roboclaw_control_launch.py -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/launch
+[5.954s] symbolically linking /home/pi/mowbot_pkg_v1/build/mowbot_pkg/config/ps4.config.yaml -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/config
+[6.107s] Invoked command in '/home/pi/mowbot_pkg_v1/build/mowbot_pkg' returned '0': PYTHONPATH=/home/pi/mowbot_pkg_v1/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pi/mowbot_pkg_v1/build/mowbot_pkg/build --no-deps symlink_data --force

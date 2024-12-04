@@ -1,0 +1,2 @@
+[console_scripts]
+roboclaw_control = mowbot_pkg.roboclaw_control:main
