@@ -1,0 +1,13 @@
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\bin\Debug\TomsORingIR.exe.config
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\bin\Debug\TomsORingIR.exe
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\bin\Debug\TomsORingIR.pdb
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\obj\Debug\TomsORingIR.csproj.AssemblyReference.cache
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\obj\Debug\TomsORingIR.csproj.SuggestedBindingRedirects.cache
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\obj\Debug\TomsORingIR.Form1.resources
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\obj\Debug\TomsORingIR.Properties.Resources.resources
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\obj\Debug\TomsORingIR.csproj.GenerateResource.cache
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\obj\Debug\TomsORingIR.csproj.CoreCompileInputs.cache
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\obj\Debug\TomsORingIR.exe
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\obj\Debug\TomsORingIR.pdb
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\bin\Debug\Tulpep.NotificationWindow.dll
+D:\DEV\lab\projects\TomsORingIR\TomsORingIR\obj\Debug\TomsORingIR.csproj.CopyComplete
