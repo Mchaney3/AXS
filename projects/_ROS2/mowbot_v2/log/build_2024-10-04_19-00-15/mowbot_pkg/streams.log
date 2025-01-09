@@ -1,0 +1,21 @@
+[7.278s] Invoking command in '/home/pi/mowbot_v2': PYTHONPATH=/home/pi/mowbot_v2/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mowbot_pkg build --build-base /home/pi/mowbot_v2/build/mowbot_pkg/build install --record /home/pi/mowbot_v2/build/mowbot_pkg/install.log --single-version-externally-managed install_data
+[10.369s] running egg_info
+[10.375s] writing build/mowbot_pkg/mowbot_pkg.egg-info/PKG-INFO
+[10.377s] writing dependency_links to build/mowbot_pkg/mowbot_pkg.egg-info/dependency_links.txt
+[10.379s] writing entry points to build/mowbot_pkg/mowbot_pkg.egg-info/entry_points.txt
+[10.380s] writing requirements to build/mowbot_pkg/mowbot_pkg.egg-info/requires.txt
+[10.382s] writing top-level names to build/mowbot_pkg/mowbot_pkg.egg-info/top_level.txt
+[10.402s] reading manifest file 'build/mowbot_pkg/mowbot_pkg.egg-info/SOURCES.txt'
+[10.412s] writing manifest file 'build/mowbot_pkg/mowbot_pkg.egg-info/SOURCES.txt'
+[10.414s] running build
+[10.414s] running build_py
+[10.422s] running install
+[10.425s] running install_lib
+[10.444s] running install_data
+[10.447s] running install_egg_info
+[10.464s] removing '/home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg-0.0.1-py3.10.egg-info' (and everything under it)
+[10.468s] Copying build/mowbot_pkg/mowbot_pkg.egg-info to /home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg-0.0.1-py3.10.egg-info
+[10.482s] running install_scripts
+[10.683s] Installing roboclaw_control script to /home/pi/mowbot_v2/install/mowbot_pkg/lib/mowbot_pkg
+[10.688s] writing list of installed files to '/home/pi/mowbot_v2/build/mowbot_pkg/install.log'
+[10.889s] Invoked command in '/home/pi/mowbot_v2' returned '0': PYTHONPATH=/home/pi/mowbot_v2/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_v2/install/mowbot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mowbot_pkg build --build-base /home/pi/mowbot_v2/build/mowbot_pkg/build install --record /home/pi/mowbot_v2/build/mowbot_pkg/install.log --single-version-externally-managed install_data

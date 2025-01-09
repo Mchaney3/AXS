@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.001383] (mowbot_pkg) JobQueued: {'identifier': 'mowbot_pkg', 'dependencies': OrderedDict()}
+[0.001627] (mowbot_pkg) JobStarted: {'identifier': 'mowbot_pkg'}
+[0.097912] (-) TimerEvent: {}
+[0.198638] (-) TimerEvent: {}
+[0.299325] (-) TimerEvent: {}
+[0.400043] (-) TimerEvent: {}
+[0.500748] (-) TimerEvent: {}
+[0.601400] (-) TimerEvent: {}
+[0.702022] (-) TimerEvent: {}
+[0.802693] (-) TimerEvent: {}
+[0.903368] (-) TimerEvent: {}
+[1.003984] (-) TimerEvent: {}
+[1.104681] (-) TimerEvent: {}
+[1.205331] (-) TimerEvent: {}
+[1.305982] (-) TimerEvent: {}
+[1.406641] (-) TimerEvent: {}
+[1.507436] (-) TimerEvent: {}
+[1.608618] (-) TimerEvent: {}
+[1.709406] (-) TimerEvent: {}
+[1.810073] (-) TimerEvent: {}
+[1.910742] (-) TimerEvent: {}
+[2.011384] (-) TimerEvent: {}
+[2.112075] (-) TimerEvent: {}
+[2.212742] (-) TimerEvent: {}
+[2.313367] (-) TimerEvent: {}
+[2.413991] (-) TimerEvent: {}
+[2.514611] (-) TimerEvent: {}
+[2.615236] (-) TimerEvent: {}
+[2.715906] (-) TimerEvent: {}
+[2.816616] (-) TimerEvent: {}
+[2.917279] (-) TimerEvent: {}
+[3.017932] (-) TimerEvent: {}
+[3.118617] (-) TimerEvent: {}
+[3.219312] (-) TimerEvent: {}
+[3.320006] (-) TimerEvent: {}
+[3.420709] (-) TimerEvent: {}
+[3.521618] (-) TimerEvent: {}
+[3.610020] (mowbot_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/mowbot_pkg', 'build', '--build-base', '/home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/build/mowbot_pkg/build', 'install', '--record', '/home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/build/mowbot_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1392', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pi', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mowbot:@/tmp/.ICE-unix/1364,unix/mowbot:/tmp/.ICE-unix/1364', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d57a53f_c70b_4e98_84ac_8efc0178268d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://192.168.1.71:11311/', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GCC_COLORS': 'error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/build/mowbot_pkg', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/install/mowbot_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.623868] (-) TimerEvent: {}
+[3.728087] (-) TimerEvent: {}
+[3.828803] (-) TimerEvent: {}
+[3.929605] (-) TimerEvent: {}
+[4.030299] (-) TimerEvent: {}
+[4.130945] (-) TimerEvent: {}
+[4.231575] (-) TimerEvent: {}
+[4.332237] (-) TimerEvent: {}
+[4.432894] (-) TimerEvent: {}
+[4.533622] (-) TimerEvent: {}
+[4.634283] (-) TimerEvent: {}
+[4.734991] (-) TimerEvent: {}
+[4.835666] (-) TimerEvent: {}
+[4.936403] (-) TimerEvent: {}
+[4.968076] (mowbot_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.973724] (mowbot_pkg) StdoutLine: {'line': b'writing build/mowbot_pkg/mowbot_pkg.egg-info/PKG-INFO\n'}
+[4.975087] (mowbot_pkg) StdoutLine: {'line': b'writing dependency_links to build/mowbot_pkg/mowbot_pkg.egg-info/dependency_links.txt\n'}
+[4.976137] (mowbot_pkg) StdoutLine: {'line': b'writing entry points to build/mowbot_pkg/mowbot_pkg.egg-info/entry_points.txt\n'}
+[4.977104] (mowbot_pkg) StdoutLine: {'line': b'writing requirements to build/mowbot_pkg/mowbot_pkg.egg-info/requires.txt\n'}
+[4.977857] (mowbot_pkg) StdoutLine: {'line': b'writing top-level names to build/mowbot_pkg/mowbot_pkg.egg-info/top_level.txt\n'}
+[4.987434] (mowbot_pkg) StdoutLine: {'line': b"reading manifest file 'build/mowbot_pkg/mowbot_pkg.egg-info/SOURCES.txt'\n"}
+[4.993354] (mowbot_pkg) StdoutLine: {'line': b"writing manifest file 'build/mowbot_pkg/mowbot_pkg.egg-info/SOURCES.txt'\n"}
+[4.994176] (mowbot_pkg) StdoutLine: {'line': b'running build\n'}
+[4.994842] (mowbot_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.995467] (mowbot_pkg) StdoutLine: {'line': b'copying ./mowbot_pkg/roboclaw_control.py -> /home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/build/mowbot_pkg/build/lib/mowbot_pkg\n'}
+[4.999249] (mowbot_pkg) StdoutLine: {'line': b'running install\n'}
+[5.000577] (mowbot_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.005868] (mowbot_pkg) StdoutLine: {'line': b'copying /home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw_control.py -> /home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg\n'}
+[5.009423] (mowbot_pkg) StdoutLine: {'line': b'byte-compiling /home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw_control.py to roboclaw_control.cpython-310.pyc\n'}
+[5.012917] (mowbot_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.014375] (mowbot_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.022546] (mowbot_pkg) StdoutLine: {'line': b"removing '/home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[5.024438] (mowbot_pkg) StdoutLine: {'line': b'Copying build/mowbot_pkg/mowbot_pkg.egg-info to /home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg-0.0.1-py3.10.egg-info\n'}
+[5.031327] (mowbot_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.036533] (-) TimerEvent: {}
+[5.125859] (mowbot_pkg) StdoutLine: {'line': b'Installing roboclaw_control script to /home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/install/mowbot_pkg/lib/mowbot_pkg\n'}
+[5.128018] (mowbot_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/pi/mowbot_pkg_v1_WORKING_DO_NOT_TOUCH/build/mowbot_pkg/install.log'\n"}
+[5.136776] (-) TimerEvent: {}
+[5.237861] (-) TimerEvent: {}
+[5.252078] (mowbot_pkg) CommandEnded: {'returncode': 0}
+[5.340540] (-) TimerEvent: {}
+[5.344064] (mowbot_pkg) JobEnded: {'identifier': 'mowbot_pkg', 'rc': 0}
+[5.347093] (-) EventReactorShutdown: {}

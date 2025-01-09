@@ -1,0 +1,53 @@
+[1.148s] Invoking command in '/home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/build
+[1.559s] running develop
+[1.559s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.559s] !!
+[1.559s] 
+[1.559s]         ********************************************************************************
+[1.559s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.560s]         Instead, use pypa/build, pypa/installer or other
+[1.560s]         standards-based tools.
+[1.560s] 
+[1.560s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.560s]         ********************************************************************************
+[1.560s] 
+[1.560s] !!
+[1.560s]   easy_install.initialize_options(self)
+[1.830s] Removing /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot-pkg.egg-link (link to .)
+[1.915s] Invoked command in '/home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/build
+[1.917s] Invoking command in '/home/pi/mowbot_pkg_v2_lidar': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mowbot_pkg build --build-base /home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/build install --record /home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/install.log --single-version-externally-managed install_data --force
+[2.273s] running egg_info
+[2.299s] writing build/mowbot_pkg/mowbot_pkg.egg-info/PKG-INFO
+[2.299s] writing dependency_links to build/mowbot_pkg/mowbot_pkg.egg-info/dependency_links.txt
+[2.301s] writing entry points to build/mowbot_pkg/mowbot_pkg.egg-info/entry_points.txt
+[2.301s] writing requirements to build/mowbot_pkg/mowbot_pkg.egg-info/requires.txt
+[2.302s] writing top-level names to build/mowbot_pkg/mowbot_pkg.egg-info/top_level.txt
+[2.356s] reading manifest file 'build/mowbot_pkg/mowbot_pkg.egg-info/SOURCES.txt'
+[2.357s] writing manifest file 'build/mowbot_pkg/mowbot_pkg.egg-info/SOURCES.txt'
+[2.357s] running build
+[2.357s] running build_py
+[2.358s] running install
+[2.367s] running install_lib
+[2.393s] creating /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot_pkg
+[2.393s] copying /home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/build/lib/mowbot_pkg/__init__.py -> /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot_pkg
+[2.393s] creating /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot_pkg/roboclaw
+[2.393s] copying /home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw/__init__.py -> /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot_pkg/roboclaw
+[2.393s] copying /home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw/roboclaw_3.py -> /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot_pkg/roboclaw
+[2.394s] copying /home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw_control.py -> /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot_pkg
+[2.394s] byte-compiling /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot_pkg/__init__.py to __init__.cpython-312.pyc
+[2.395s] byte-compiling /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot_pkg/roboclaw/__init__.py to __init__.cpython-312.pyc
+[2.395s] byte-compiling /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot_pkg/roboclaw/roboclaw_3.py to roboclaw_3.cpython-312.pyc
+[2.410s] byte-compiling /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot_pkg/roboclaw_control.py to roboclaw_control.cpython-312.pyc
+[2.411s] running install_data
+[2.411s] copying resource/mowbot_pkg -> /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/share/ament_index/resource_index/packages
+[2.412s] copying package.xml -> /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/share/mowbot_pkg
+[2.412s] copying launch/roboclaw_control_launch.py -> /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/share/mowbot_pkg/launch
+[2.412s] copying config/ps4.config.yaml -> /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/share/mowbot_pkg/config
+[2.412s] copying config/local_costmap_params.yaml -> /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/share/mowbot_pkg/config
+[2.412s] copying config/global_costmap_params.yaml -> /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/share/mowbot_pkg/config
+[2.413s] running install_egg_info
+[2.440s] Copying build/mowbot_pkg/mowbot_pkg.egg-info to /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages/mowbot_pkg-0.0.1-py3.12.egg-info
+[2.441s] running install_scripts
+[2.623s] Installing roboclaw_control script to /home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/mowbot_pkg
+[2.624s] writing list of installed files to '/home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/install.log'
+[2.702s] Invoked command in '/home/pi/mowbot_pkg_v2_lidar' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/mowbot_pkg_v2_lidar/install/mowbot_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mowbot_pkg build --build-base /home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/build install --record /home/pi/mowbot_pkg_v2_lidar/build/mowbot_pkg/install.log --single-version-externally-managed install_data --force

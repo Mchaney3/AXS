@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing mowbot_pkg.egg-info/PKG-INFO
+writing dependency_links to mowbot_pkg.egg-info/dependency_links.txt
+writing entry points to mowbot_pkg.egg-info/entry_points.txt
+writing requirements to mowbot_pkg.egg-info/requires.txt
+writing top-level names to mowbot_pkg.egg-info/top_level.txt
+reading manifest file 'mowbot_pkg.egg-info/SOURCES.txt'
+writing manifest file 'mowbot_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot-pkg.egg-link (link to .)
+Installing roboclaw_control script to /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/mowbot_pkg
+
+Installed /home/pi/mowbot_pkg_v1/build/mowbot_pkg
+running symlink_data
+symbolically linking /home/pi/mowbot_pkg_v1/build/mowbot_pkg/resource/mowbot_pkg -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/pi/mowbot_pkg_v1/build/mowbot_pkg/package.xml -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg
+symbolically linking /home/pi/mowbot_pkg_v1/build/mowbot_pkg/launch/roboclaw_control_launch.py -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/launch
+symbolically linking /home/pi/mowbot_pkg_v1/build/mowbot_pkg/config/ps4.config.yaml -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/config

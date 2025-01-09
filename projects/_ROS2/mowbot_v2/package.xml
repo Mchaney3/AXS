@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mowbot_pkg</name>
+  <version>0.0.1</version>
+  <description>A ROS 2 package for controlling a differential drive robot with Roboclaw and PS4 teleop.</description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <!-- Dependencies -->
+  <buildtool_depend>ament_python</buildtool_depend>
+  
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>joy</depend>
+  <depend>teleop_twist_joy</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

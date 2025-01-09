@@ -1,0 +1,37 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot-pkg.egg-link (link to .)
+running egg_info
+writing build/mowbot_pkg/mowbot_pkg.egg-info/PKG-INFO
+writing dependency_links to build/mowbot_pkg/mowbot_pkg.egg-info/dependency_links.txt
+writing entry points to build/mowbot_pkg/mowbot_pkg.egg-info/entry_points.txt
+writing requirements to build/mowbot_pkg/mowbot_pkg.egg-info/requires.txt
+writing top-level names to build/mowbot_pkg/mowbot_pkg.egg-info/top_level.txt
+reading manifest file 'build/mowbot_pkg/mowbot_pkg.egg-info/SOURCES.txt'
+writing manifest file 'build/mowbot_pkg/mowbot_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ./mowbot_pkg/roboclaw_control.py -> /home/pi/mowbot_pkg_v1/build/mowbot_pkg/build/lib/mowbot_pkg
+running install
+running install_lib
+creating /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg
+creating /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw
+copying /home/pi/mowbot_pkg_v1/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw/roboclaw_3.py -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw
+copying /home/pi/mowbot_pkg_v1/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw/__init__.py -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw
+copying /home/pi/mowbot_pkg_v1/build/mowbot_pkg/build/lib/mowbot_pkg/__init__.py -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg
+copying /home/pi/mowbot_pkg_v1/build/mowbot_pkg/build/lib/mowbot_pkg/roboclaw_control.py -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg
+byte-compiling /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw/roboclaw_3.py to roboclaw_3.cpython-310.pyc
+byte-compiling /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg/roboclaw_control.py to roboclaw_control.cpython-310.pyc
+running install_data
+copying resource/mowbot_pkg -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg
+copying launch/roboclaw_control_launch.py -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/launch
+copying config/ps4.config.yaml -> /home/pi/mowbot_pkg_v1/install/mowbot_pkg/share/mowbot_pkg/config
+running install_egg_info
+Copying build/mowbot_pkg/mowbot_pkg.egg-info to /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/python3.10/site-packages/mowbot_pkg-0.0.1-py3.10.egg-info
+running install_scripts
+Installing roboclaw_control script to /home/pi/mowbot_pkg_v1/install/mowbot_pkg/lib/mowbot_pkg
+writing list of installed files to '/home/pi/mowbot_pkg_v1/build/mowbot_pkg/install.log'

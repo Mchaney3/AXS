@@ -1,0 +1,119 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CNS	P13.cpp	/^static const float CNS = cos(INS) ;$/;"	v	file:
+Circum	Circum.cpp	/^Circum::Circum ()$/;"	f	class:Circum
+DEGREES	P13.cpp	/^DEGREES(float rad)$/;"	f
+DateTime	P13.cpp	/^DateTime::DateTime()$/;"	f	class:DateTime
+DateTime	P13.cpp	/^DateTime::DateTime(const DateTime &dt)$/;"	f	class:DateTime
+DateTime	P13.cpp	/^DateTime::DateTime(int year, uint8_t month, uint8_t day, uint8_t h, uint8_t m, uint8_t s) $/;"	f	class:DateTime
+E0000	magdecl.cpp	/^static int E0000(int *maxdeg, double alt,$/;"	f	file:
+EQC1	P13.cpp	/^static const float EQC1 = 0.03340 ;$/;"	v	file:
+EQC2	P13.cpp	/^static const float EQC2 = 0.00035 ;$/;"	v	file:
+FL	P13.cpp	/^static const float FL = 1.f\/298.257224f ;$/;"	v	file:
+G0	P13.cpp	/^static const float G0 = 99.5828f ;$/;"	v	file:
+GM	P13.cpp	/^static const float GM = 3.986E5f ;$/;"	v	file:
+GPS_BAUD	Circum.cpp	/^#define	GPS_BAUD	/;"	d	file:
+GPS_RX_PIN	Circum.cpp	/^#define	GPS_RX_PIN	/;"	d	file:
+GPS_TX_PIN	Circum.cpp	/^#define	GPS_TX_PIN	/;"	d	file:
+Gimbal	Gimbal.cpp	/^Gimbal::Gimbal ()$/;"	f	class:Gimbal
+INS	P13.cpp	/^static const float INS = (23.4375f)*M_PI\/180.0 ;$/;"	v	file:
+J2	P13.cpp	/^static const float J2 = 1.08263E-3f ;$/;"	v	file:
+MAS0	P13.cpp	/^static const float MAS0 = 356.4105f ;$/;"	v	file:
+MASD	P13.cpp	/^static const float MASD = 0.98560028f ;$/;"	v	file:
+Observer	P13.cpp	/^Observer::Observer(float lat, float lng, float hgt)$/;"	f	class:Observer
+RADIANS	P13.cpp	/^RADIANS(float deg)$/;"	f
+RE	P13.cpp	/^static const float RE = 6378.137f ;$/;"	v	file:
+SNS	P13.cpp	/^static const float SNS = sin(INS) ;$/;"	v	file:
+Satellite	P13.cpp	/^Satellite::Satellite(const char *l1, const char *l2)$/;"	f	class:Satellite
+Sensor	Sensor.cpp	/^Sensor::Sensor()$/;"	f	class:Sensor
+Sun	P13.cpp	/^Sun::Sun()$/;"	f	class:Sun
+Target	Target.cpp	/^Target::Target()$/;"	f	class:Target
+W0	P13.cpp	/^static const float W0 = WE\/86400.f ;$/;"	v	file:
+WE	P13.cpp	/^static const float WE = 2.f*M_PI+ WW ;$/;"	v	file:
+WW	P13.cpp	/^static const float WW = 2.f*M_PI\/YT ;$/;"	v	file:
+Webpage	Webpage.cpp	/^Webpage::Webpage()$/;"	f	class:Webpage
+YG	P13.cpp	/^static const float YG = 2014.f ;$/;"	v	file:
+YM	P13.cpp	/^static const float YM = 365.25f ;$/;"	v	file:
+YT	P13.cpp	/^static const float YT = 365.2421874f ;$/;"	v	file:
+add	P13.cpp	/^DateTime::add(float days)$/;"	f	class:DateTime
+add	P13.cpp	/^DateTime::add(long seconds)$/;"	f	class:DateTime
+age	Circum.cpp	/^float Circum::age (Satellite *sat)$/;"	f	class:Circum
+askWiFi	AskWiFi.cpp	/^void Webpage::askWiFi()$/;"	f	class:Webpage
+azDist	Gimbal.cpp	/^float Gimbal::azDist (float &from, float &to)$/;"	f	class:Gimbal
+c0	magdecl.cpp	/^static const float c0[13][13] = {$/;"	v	file:
+calibrate	Gimbal.cpp	/^void Gimbal::calibrate (float& az_s, float& el_s)$/;"	f	class:Gimbal
+calibrated	Sensor.cpp	/^bool Sensor::calibrated(uint8_t& sys, uint8_t& gyro, uint8_t& accel, uint8_t& mag)$/;"	f	class:Sensor
+cd0	magdecl.cpp	/^static const float cd0[13][13] = {$/;"	v	file:
+checkEthernet	Webpage.cpp	/^void Webpage::checkEthernet()$/;"	f	class:Webpage
+checkGPS	Circum.cpp	/^void Circum::checkGPS()$/;"	f	class:Circum
+computeSkyPath	Target.cpp	/^void Target::computeSkyPath()$/;"	f	class:Target
+connectWiFi	Webpage.cpp	/^bool Webpage::connectWiFi()$/;"	f	class:Webpage
+decimalYear	Circum.cpp	/^float Circum::decimalYear()$/;"	f	class:Circum
+diff	P13.cpp	/^DateTime::diff (DateTime& t0)$/;"	f	class:DateTime
+displayAsWarning	Target.cpp	/^void Target::displayAsWarning (WiFiClient client, bool mark)$/;"	f	class:Target
+eclipsed	P13.cpp	/^Satellite::eclipsed(Sun *sp)$/;"	f	class:Satellite
+epoc	magdecl.cpp	/^static float epoc = 2020.0;$/;"	v	file:
+findNextPass	Target.cpp	/^void Target::findNextPass()$/;"	f	class:Target
+fndate	P13.cpp	/^fndate(int &y, uint8_t &m, uint8_t &d, long dt)$/;"	f	file:
+fnday	P13.cpp	/^fnday(int y, uint8_t m, uint8_t d)$/;"	f	file:
+getAzEl	Sensor.cpp	/^void Sensor::getAzEl (float *azp, float *elp)$/;"	f	class:Sensor
+getTempC	Sensor.cpp	/^int8_t Sensor::getTempC()$/;"	f	class:Sensor
+getfloat	P13.cpp	/^getfloat(const char *c, int i0, int i1)$/;"	f	file:
+getlong	P13.cpp	/^getlong(const char *c, int i0, int i1)$/;"	f	file:
+getnow	Circum.cpp	/^void Circum::getnow(int &year, uint8_t &month, uint8_t &day, uint8_t &h, uint8_t &m, uint8_t &s)$/;"	f	class:Circum
+gettime	P13.cpp	/^DateTime::gettime(int &year, uint8_t &month, uint8_t &day, uint8_t &h, uint8_t &m, uint8_t &s)$/;"	f	class:DateTime
+installCalibration	Sensor.cpp	/^void Sensor::installCalibration()$/;"	f	class:Sensor
+magdecl	magdecl.cpp	/^magdecl ($/;"	f
+main	magdecl.cpp	/^int main (int ac, char *av[])$/;"	f
+moveToAzEl	Gimbal.cpp	/^void Gimbal::moveToAzEl (float az_t, float el_t)$/;"	f	class:Gimbal
+myatof	mymath.cpp	/^double myatof (const char *s)$/;"	f
+myfmod	mymath.cpp	/^myfmod (double a, double n)$/;"	f
+newObserver	Circum.cpp	/^void Circum::newObserver (float lat, float lng, float hgt)$/;"	f	class:Circum
+observer	Circum.cpp	/^Observer *Circum::observer()$/;"	f	class:Circum
+operator =	P13.cpp	/^DateTime &DateTime::operator= (const DateTime &source)$/;"	f	class:DateTime
+overrideValue	Circum.cpp	/^bool Circum::overrideValue (char *name, char *value)$/;"	f	class:Circum
+overrideValue	Gimbal.cpp	/^bool Gimbal::overrideValue (char *name, char *value)$/;"	f	class:Gimbal
+overrideValue	Sensor.cpp	/^bool Sensor::overrideValue (char *name, char *value)$/;"	f	class:Sensor
+overrideValue	Target.cpp	/^bool Target::overrideValue (char *name, char *value)$/;"	f	class:Target
+overrideValue	Webpage.cpp	/^void Webpage::overrideValue (WiFiClient client)$/;"	f	class:Webpage
+predict	P13.cpp	/^Satellite::predict(const DateTime &dt)$/;"	f	class:Satellite
+predict	P13.cpp	/^Sun::predict(const DateTime &dt)$/;"	f	class:Sun
+printDate	Circum.cpp	/^void Circum::printDate (WiFiClient client, int y, uint8_t m, uint8_t d)$/;"	f	class:Circum
+printHMS	Circum.cpp	/^void Circum::printHMS (WiFiClient client, uint8_t h, uint8_t m, uint8_t s)$/;"	f	class:Circum
+printPL	Circum.cpp	/^void Circum::printPL (WiFiClient client, PrintLevel pl)$/;"	f	class:Circum
+printSexa	Circum.cpp	/^void Circum::printSexa (WiFiClient client, float v)$/;"	f	class:Circum
+readNextClientChar	Webpage.cpp	/^char Webpage::readNextClientChar (WiFiClient client, uint32_t *to)$/;"	f	class:Webpage
+reboot	Webpage.cpp	/^void Webpage::reboot()$/;"	f	class:Webpage
+resumeTLEFetch	Webpage.cpp	/^void Webpage::resumeTLEFetch ()$/;"	f	class:Webpage
+saveCalibration	Sensor.cpp	/^void Sensor::saveCalibration()$/;"	f	class:Sensor
+scrub	Webpage.cpp	/^void Webpage::scrub (char *s)$/;"	f	class:Webpage
+seekTarget	Gimbal.cpp	/^void Gimbal::seekTarget (float& az_t, float& el_t, float& az_s, float& el_s)$/;"	f	class:Gimbal
+send404Page	Webpage.cpp	/^void Webpage::send404Page (WiFiClient client)$/;"	f	class:Webpage
+sendAskPage	AskWiFi.cpp	/^void Webpage::sendAskPage(WiFiClient client)$/;"	f	class:Webpage
+sendEmptyResponse	Webpage.cpp	/^void Webpage::sendEmptyResponse (WiFiClient client)$/;"	f	class:Webpage
+sendHTMLHeader	Webpage.cpp	/^void Webpage::sendHTMLHeader (WiFiClient client)$/;"	f	class:Webpage
+sendMainPage	Webpage.cpp	/^void Webpage::sendMainPage (WiFiClient client)$/;"	f	class:Webpage
+sendNewValues	Circum.cpp	/^void Circum::sendNewValues (WiFiClient client)$/;"	f	class:Circum
+sendNewValues	Gimbal.cpp	/^void Gimbal::sendNewValues (WiFiClient client)$/;"	f	class:Gimbal
+sendNewValues	Sensor.cpp	/^void Sensor::sendNewValues (WiFiClient client)$/;"	f	class:Sensor
+sendNewValues	Target.cpp	/^void Target::sendNewValues (WiFiClient client)$/;"	f	class:Target
+sendNewValues	Webpage.cpp	/^void Webpage::sendNewValues (WiFiClient client)$/;"	f	class:Webpage
+sendPlainHeader	Webpage.cpp	/^void Webpage::sendPlainHeader (WiFiClient client)$/;"	f	class:Webpage
+setMotorPosition	Gimbal.cpp	/^void Gimbal::setMotorPosition (uint8_t motn, uint16_t newpos)$/;"	f	class:Gimbal
+setTLE	Target.cpp	/^void Target::setTLE (char *l1, char *l2, char *l3)$/;"	f	class:Target
+setTrackingState	Target.cpp	/^void Target::setTrackingState (bool want_on)$/;"	f	class:Target
+setUserMessage	Webpage.cpp	/^void Webpage::setUserMessage (const __FlashStringHelper *ifsh)$/;"	f	class:Webpage
+setUserMessage	Webpage.cpp	/^void Webpage::setUserMessage (const __FlashStringHelper *ifsh, const char *msg, char state)$/;"	f	class:Webpage
+setnow	Circum.cpp	/^void Circum::setnow(int year, uint8_t month, uint8_t day, uint8_t h, uint8_t m, uint8_t s)$/;"	f	class:Circum
+settime	P13.cpp	/^DateTime::settime(int year, uint8_t month, uint8_t day, uint8_t h, uint8_t m, uint8_t s) $/;"	f	class:DateTime
+startTLEFetch	Webpage.cpp	/^void Webpage::startTLEFetch (char *query_text)$/;"	f	class:Webpage
+tle	P13.cpp	/^Satellite::tle(const char *l1, const char *l2)$/;"	f	class:Satellite
+tleValidChecksum	Target.cpp	/^bool Target::tleValidChecksum (const char *line)$/;"	f	class:Target
+topo	P13.cpp	/^Satellite::topo(const Observer *obs, float &alt, float &az, float &range, float &range_rate)$/;"	f	class:Satellite
+track	Target.cpp	/^void Target::track()$/;"	f	class:Target
+updateTopo	Target.cpp	/^void Target::updateTopo()$/;"	f	class:Target
+~Satellite	P13.cpp	/^Satellite::~Satellite()$/;"	f	class:Satellite

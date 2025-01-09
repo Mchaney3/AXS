@@ -1,0 +1,26 @@
+[3.287s] Invoking command in '/home/dadmin/mowbot_teleop/build/mowbot_teleop': PYTHONPATH=/home/dadmin/mowbot_teleop/build/mowbot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dadmin/mowbot_teleop/install/mowbot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dadmin/mowbot_teleop/build/mowbot_teleop/build --no-deps symlink_data
+[4.642s] running develop
+[4.644s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.645s]   warnings.warn(
+[5.555s] running egg_info
+[5.556s] creating mowbot_teleop.egg-info
+[5.556s] writing mowbot_teleop.egg-info/PKG-INFO
+[5.557s] writing dependency_links to mowbot_teleop.egg-info/dependency_links.txt
+[5.557s] writing entry points to mowbot_teleop.egg-info/entry_points.txt
+[5.558s] writing requirements to mowbot_teleop.egg-info/requires.txt
+[5.558s] writing top-level names to mowbot_teleop.egg-info/top_level.txt
+[5.559s] writing manifest file 'mowbot_teleop.egg-info/SOURCES.txt'
+[5.567s] reading manifest file 'mowbot_teleop.egg-info/SOURCES.txt'
+[5.571s] writing manifest file 'mowbot_teleop.egg-info/SOURCES.txt'
+[5.578s] running build_ext
+[5.579s] Creating /home/dadmin/mowbot_teleop/install/mowbot_teleop/lib/python3.10/site-packages/mowbot-teleop.egg-link (link to .)
+[5.582s] Installing mowbot_video_node script to /home/dadmin/mowbot_teleop/install/mowbot_teleop/lib/mowbot_teleop
+[5.583s] 
+[5.583s] Installed /home/dadmin/mowbot_teleop/build/mowbot_teleop
+[5.584s] running symlink_data
+[5.584s] creating /home/dadmin/mowbot_teleop/install/mowbot_teleop/share/ament_index
+[5.585s] creating /home/dadmin/mowbot_teleop/install/mowbot_teleop/share/ament_index/resource_index
+[5.585s] creating /home/dadmin/mowbot_teleop/install/mowbot_teleop/share/ament_index/resource_index/packages
+[5.586s] symbolically linking /home/dadmin/mowbot_teleop/build/mowbot_teleop/resource/mowbot_teleop -> /home/dadmin/mowbot_teleop/install/mowbot_teleop/share/ament_index/resource_index/packages
+[5.586s] symbolically linking /home/dadmin/mowbot_teleop/build/mowbot_teleop/package.xml -> /home/dadmin/mowbot_teleop/install/mowbot_teleop/share/mowbot_teleop
+[5.733s] Invoked command in '/home/dadmin/mowbot_teleop/build/mowbot_teleop' returned '0': PYTHONPATH=/home/dadmin/mowbot_teleop/build/mowbot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dadmin/mowbot_teleop/install/mowbot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dadmin/mowbot_teleop/build/mowbot_teleop/build --no-deps symlink_data
