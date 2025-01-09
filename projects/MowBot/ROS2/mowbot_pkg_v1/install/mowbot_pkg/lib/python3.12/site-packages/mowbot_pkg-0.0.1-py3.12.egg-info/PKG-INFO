@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: mowbot-pkg
-Version: 0.0.1
-Summary: A ROS 2 package for controlling a differential drive robot with Roboclaw and PS4 teleop.
-Maintainer: Your Name
-Maintainer-email: your_email@example.com
-License: MIT

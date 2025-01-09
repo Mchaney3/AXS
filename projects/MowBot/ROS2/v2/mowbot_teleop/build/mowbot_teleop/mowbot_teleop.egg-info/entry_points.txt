@@ -1,3 +1,0 @@
-[console_scripts]
-mowbot_video_node = mowbot_teleop.mowbot_video_node:main
-

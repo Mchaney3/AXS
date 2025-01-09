@@ -1,9 +1,0 @@
-source;share/mowbot_teleop/hook/pythonpath.ps1
-source;share/mowbot_teleop/hook/pythonpath.dsv
-source;share/mowbot_teleop/hook/pythonpath.sh
-source;share/mowbot_teleop/hook/ament_prefix_path.ps1
-source;share/mowbot_teleop/hook/ament_prefix_path.dsv
-source;share/mowbot_teleop/hook/ament_prefix_path.sh
-source;../../build/mowbot_teleop/share/mowbot_teleop/hook/pythonpath_develop.ps1
-source;../../build/mowbot_teleop/share/mowbot_teleop/hook/pythonpath_develop.dsv
-source;../../build/mowbot_teleop/share/mowbot_teleop/hook/pythonpath_develop.sh
